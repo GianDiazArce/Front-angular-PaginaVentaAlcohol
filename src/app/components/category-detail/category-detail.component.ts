@@ -5,7 +5,6 @@ import { Category } from 'src/app/models/category';
 import { ActivatedRoute, Router, Params } from '@angular/router';
 import { ProductService } from 'src/app/services/product.service';
 import { Product } from 'src/app/models/products';
-import { type } from 'os';
 
 @Component({
   selector: 'app-category-detail',

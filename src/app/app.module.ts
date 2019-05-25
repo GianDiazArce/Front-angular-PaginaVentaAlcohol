@@ -11,6 +11,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CategoryDetailComponent } from './components/category-detail/category-detail.component';
+import { RegisterComponent } from './components/register/register.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 
@@ -19,7 +21,9 @@ import { CategoryDetailComponent } from './components/category-detail/category-d
     AppComponent,
     HomeComponent,
     ErrorComponent,
-    CategoryDetailComponent
+    CategoryDetailComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
